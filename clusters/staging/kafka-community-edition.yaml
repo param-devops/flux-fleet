@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
   name: confluentinc
-  namespace: flux-system
+  namespace: confluentinc
 spec:
   interval: 30s
   url: https://confluentinc.github.io/cp-helm-charts/
