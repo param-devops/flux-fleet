@@ -1,6 +1,6 @@
 ---
 apiVersion: source.toolkit.fluxcd.io/v1beta1
-kind: GitRepository
+kind: HelmRepository
 metadata:
   name: kafka-community-edition
   namespace: flux-system
