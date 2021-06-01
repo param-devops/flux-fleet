@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: production
+  name: production-new
   namespace: flux-system
 spec:
   interval: 30s
@@ -14,7 +14,7 @@ spec:
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: production
+  name: production-new
   namespace: flux-system
 spec:
   interval: 10m0s
@@ -22,6 +22,6 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: production
+    name: production-new
   validation: client
 
