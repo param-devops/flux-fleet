@@ -6,4 +6,4 @@ metadata:
   namespace: confluentinc
 spec:
   interval: 30s
-  url: https://confluentinc.github.io/cp-helm-charts/
+  url: https://packages.confluent.io/helm
